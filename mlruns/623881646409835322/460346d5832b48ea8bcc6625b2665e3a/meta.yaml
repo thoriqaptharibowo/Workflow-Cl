@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/623881646409835322/460346d5832b48ea8bcc6625b2665e3a/artifacts
+end_time: 1762415064876
+entry_point_name: ''
+experiment_id: '623881646409835322'
+lifecycle_stage: active
+run_id: 460346d5832b48ea8bcc6625b2665e3a
+run_name: stately-hawk-777
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762414483689
+status: 3
+tags: []
+user_id: averroes

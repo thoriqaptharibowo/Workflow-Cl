@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/623881646409835322/089c403dd85f4ef0ac071888b4bdb5ab/artifacts
+end_time: 1762414290864
+entry_point_name: ''
+experiment_id: '623881646409835322'
+lifecycle_stage: active
+run_id: 089c403dd85f4ef0ac071888b4bdb5ab
+run_name: unruly-mare-406
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762413710215
+status: 3
+tags: []
+user_id: averroes
