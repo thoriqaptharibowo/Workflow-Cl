@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/623881646409835322/e3912bdb718342abac9a45b45bd75558/artifacts
+end_time: 1762488984099
+entry_point_name: ''
+experiment_id: '623881646409835322'
+lifecycle_stage: active
+run_id: e3912bdb718342abac9a45b45bd75558
+run_name: gifted-slug-242
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762488403178
+status: 3
+tags: []
+user_id: averroes
