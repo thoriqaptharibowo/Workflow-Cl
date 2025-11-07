@@ -47,6 +47,13 @@ jobs:
           RUN_ID=$(ls -td mlruns/0/*/ | head -n 1 | cut -d'/' -f3)
           echo "RUN_ID=$RUN_ID" >> $GITHUB_ENV
           echo "Latest run_id: $RUN_ID"
+
+      # Upload MLflow model artifact to GitHub Actions
+      - name: Upload MLflow model artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: mlflow-model-${{ env.RUN_ID }}
+          path: mlruns/0/${{ env.RUN_ID }}/artifacts/model
           
       # Build Docker Model
       - name: Build Docker Model
@@ -69,3 +76,4 @@ jobs:
       - name: Push Docker Image
         run: |
           docker push ${{ secrets.DOCKER_HUB_USERNAME }}/cobesityc:latest
+

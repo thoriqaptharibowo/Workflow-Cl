@@ -40,11 +40,8 @@ with mlflow.start_run():
     
     y_pred = rf.predict(x_test)
 
-    # evaluate and log results to MLflow
     results = evaluate_model(rf, x_test, y_test)
 
-    # Log numeric metrics to MLflow
     for metric in ['Accuracy', 'Precision', 'Recall', 'F1-Score']:
         if metric in results:
-            # ensure metric is a plain float
             mlflow.log_metric(metric, float(results[metric]))
