@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, recall_score, f1_score
 from skopt import BayesSearchCV
 
-mlflow.set_tracking_uri("http://127.0.0.1:5000")
+mlflow.set_tracking_uri("https://dagshub.com/thoriqaptharibowo/Membangun_Model.mlflow")
 mlflow.set_experiment("Obesity Classification")
 mlflow.sklearn.autolog()
 
